@@ -1,0 +1,19 @@
+<div class="card w-50" style="margin: auto" *ngIf="item">
+  <img
+    *ngIf="item.type === 'article'"
+    class="card-img-top"
+    [src]="item.imgSrc"
+    alt="Card image cap"
+  />
+  <video *ngIf="item.type === 'video'" class="w-100" controls autoplay>
+    <source [src]="item.videoSrc" type="video/mp4" />
+    <source [src]="item.videoSrc" type="video/ogg" />
+    Your browser does not support the video tag.
+  </video>
+  <div class="card-body">
+    <h5 class="card-title">{{ item.title }}</h5>
+    <p class="card-text">ნახვა: {{ item.views }}</p>
+    <p class="card-text">შექმნის თარიღი: {{ item.views }}</p>
+    <p class="card-text">გამოქვეყნდა: {{ item.publishDate | date:'fullDate'  }}</p>
+  </div>
+</div>

@@ -1,0 +1,120 @@
+<div
+  *ngIf="items"
+  class="w-50"
+  style="margin: auto"
+  infiniteScroll
+  [infiniteScrollDistance]="2"
+  (scrolled)="onScroll($event)"
+>
+  <div class="actions">
+    <span>ფილტრი:</span>
+    <div class="ml-2 custom-control custom-radio custom-control-inline">
+      <input
+        (change)="filter($event.target.defaultValue)"
+        value=""
+        type="radio"
+        class="custom-control-input"
+        id="all"
+        name="filterButtons"
+        mdbInput
+      />
+      <label class="custom-control-label" for="all">ყველა</label>
+    </div>
+
+    <div class="custom-control custom-radio custom-control-inline">
+      <input
+        (change)="filter($event.target.defaultValue)"
+        value="video"
+        type="radio"
+        class="custom-control-input"
+        id="video"
+        name="filterButtons"
+        mdbInput
+      />
+      <label class="custom-control-label" for="video">ვიდეოები</label>
+    </div>
+
+    <div class="custom-control custom-radio custom-control-inline">
+      <input
+        (change)="filter($event.target.defaultValue)"
+        value="article"
+        type="radio"
+        class="custom-control-input"
+        id="article"
+        name="filterButtons"
+        mdbInput
+      />
+      <label class="custom-control-label" for="article">სტატიები</label>
+    </div>
+  </div>
+  <div class="actions">
+    სორტირება:
+    <button (click)="sort('views')" class="btn btn-light ml-2" [ngClass]="{active : viewsFilter}">
+      <svg
+        *ngIf="viewsFilter"
+        width="1em"
+        height="1em"
+        viewBox="0 0 16 16"
+        class="bi bi-arrow-up"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"
+        />
+      </svg>
+      ნახვები
+    </button>
+    <button (click)="sort('publishDate')" class="btn btn-light ml-2" [ngClass]="{active : publishDateFilter}">
+      <svg
+        *ngIf="publishDateFilter"
+        width="1em"
+        height="1em"
+        viewBox="0 0 16 16"
+        class="bi bi-arrow-up"
+        fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"
+        />
+      </svg>
+      გამოქვეყნების თარიღი
+    </button>
+  </div>
+  <ul class="list-group">
+    <li *ngFor="let item of items" class="list-group-item mb-2">
+      <a
+        routerLink="/{{ item.id }}"
+        style="text-decoration: none; color: black; display: flex"
+      >
+        <div class="media" *ngIf="item.imgSrc || item.videoSrc">
+          <img [src]="item.imgSrc" class="mr-2 image" />
+          <div class="overlay" *ngIf="item.type === 'video'">
+            <svg
+              style="opacity: 0.5"
+              width="5em"
+              height="5em"
+              viewBox="0 0 16 16"
+              class="bi bi-caret-right-square-fill"
+              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4v8z"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="ml-4">
+          <h4>{{ item.title }}</h4>
+          <p>ნახვა: {{ item.views }}</p>
+          <p>გამოქვეყნდა: {{ item.publishDate | date:'fullDate'  }}</p>
+        </div>
+      </a>
+    </li>
+  </ul>
+</div>

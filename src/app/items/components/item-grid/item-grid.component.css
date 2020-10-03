@@ -1,0 +1,28 @@
+.actions {
+  padding: 16px;
+  display: flex;
+  align-items: baseline;
+}
+.filter-form {
+  display: flex;
+}
+.sort-header {
+  cursor: pointer;
+}
+.media{
+  position: relative;
+}
+.image {
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.overlay{
+  transition: .5s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
