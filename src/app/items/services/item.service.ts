@@ -112,7 +112,7 @@ const ITEMS: ItemDto[] = [
   },
   {
     id: 11,
-    type: 'article11',
+    type: 'article',
     title: 'title',
     content: 'content',
     videoSrc: '',
@@ -122,7 +122,7 @@ const ITEMS: ItemDto[] = [
   },
   {
     id: 12,
-    type: 'video12',
+    type: 'video',
     title: 'title',
     content: 'content',
     videoSrc:
@@ -164,10 +164,10 @@ const ITEMS: ItemDto[] = [
   },
   {
     id: 16,
-    type: 'vide',
+    type: 'video',
     title: 'title16',
     content: 'content',
-    videoSrc: 'src',
+    videoSrc: '../../../assets/videoplayback.mp4',
     imgSrc: 'https://picsum.photos/200/150',
     publishDate: '2020-09-15T14:12:24.719+0000',
     views: 3658,
@@ -184,10 +184,10 @@ const ITEMS: ItemDto[] = [
   },
   {
     id: 18,
-    type: 'vide',
+    type: 'video',
     title: 'title18',
     content: 'content',
-    videoSrc: 'src',
+    videoSrc: '../../../assets/videoplayback.mp4',
     imgSrc: 'https://picsum.photos/200/150',
     publishDate: '2020-08-12T09:01:31.938+0000',
     views: 3658,
