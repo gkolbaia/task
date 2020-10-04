@@ -10,7 +10,7 @@ import { ItemDto } from '../../models/item-dto';
 export class ItemDetailsComponent implements OnInit {
   constructor(
     private route: ActivatedRoute,
-    private itemsService: ItemService,
+    private itemsService: ItemService
   ) {}
   item: ItemDto;
   ngOnInit(): void {
@@ -20,9 +20,8 @@ export class ItemDetailsComponent implements OnInit {
     return Number(this.route.snapshot.params.id);
   }
   getItem() {
-    this.itemsService.getById(this.id).subscribe((res:ItemDto) => {
+    this.itemsService.getById(this.id).subscribe((res: ItemDto) => {
       this.item = res;
     });
   }
-
 }

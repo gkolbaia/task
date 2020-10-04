@@ -44,7 +44,6 @@ export class ItemGridComponent implements OnInit {
     }
   }
   onScroll(e) {
-    console.log(this.query.scroll)
     this.query.scroll += 1;
     this.itemsService.getList(this.query).subscribe((res: ItemDto[]) => {
       if (res && res.length) {
