@@ -31,9 +31,12 @@ export class ItemGridComponent implements OnInit {
   sort(sortType: string): void {
     this.query.scroll = 0;
     this.query.order =
-      this.query.order && this.query.order.length ? null : sortType;
+      this.query.order &&
+      this.query.order.length &&
+      this.query.order === sortType
+        ? null
+        : sortType;
     this.getItems();
-
     if (sortType === 'views') {
       this.publishDateFilter = false;
       this.viewsFilter = !this.viewsFilter;
@@ -49,7 +52,7 @@ export class ItemGridComponent implements OnInit {
       if (res && res.length) {
         this.items = this.items.concat(res);
       } else {
-        this.query.scroll-=1;
+        this.query.scroll -= 1;
       }
     });
   }
