@@ -21,7 +21,7 @@ const ITEMS: ItemDto[] = [
     title: 'title2',
     content: 'content',
     videoSrc:
-      'https://r5---sn-4g5ednsz.googlevideo.com/videoplayback?expire=1601754325&ei=dYB4X-K_M9StxN8PvvavOA&ip=81.23.32.47&id=o-ALmgJO3tPwXnPPjjo5wbHFiEspmbZ4NetGnhu0EkqdPh&itag=18&source=youtube&requiressl=yes&vprv=1&mime=video%2Fmp4&gir=yes&clen=5222562&ratebypass=yes&dur=60.186&lmt=1416849742469236&fvip=5&fexp=23812955,23915654&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRAIgC9PGlYcUs73m6zU0kUbRlwsmt-Cx4bJC7nbO69P2CTwCIH02j2XlUnYXhWbRGSo0_PaaPJW2Fn8vfQiGhJxNAQo4&video_id=3QsKtsyYCws&title=%E1%83%99%E1%83%9D%E1%83%99%E1%83%90+%E1%83%99%E1%83%9D%E1%83%9A%E1%83%90%2C+%E1%83%90%E1%83%AE%E1%83%90%E1%83%9A%E1%83%98+%E1%83%AC%E1%83%94%E1%83%9A%E1%83%98%E1%83%90&rm=sn-25g6r76&req_id=5e04a86e555da3ee&ipbypass=yes&cm2rm=sn-npa3oxu-ucns76,sn-4g5edz76&redirect_counter=3&cms_redirect=yes&mh=uA&mip=185.83.36.4&mm=34&mn=sn-4g5ednsz&ms=ltu&mt=1601732402&mv=u&mvi=5&pl=24&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgO9zDTFWkyGzcaozBhrAvtmFeZJG_xsNh4Jcf4027Mc8CIH82UAXsST12MMRRuXxV89nujAuk0kmVAZLMpaFLadsa',
+      '../../../assets/videoplayback.mp4',
     imgSrc: 'https://picsum.photos/200/150',
     publishDate: '2020-09-30T14:03:44.667+0000',
     views: 158,
@@ -32,7 +32,7 @@ const ITEMS: ItemDto[] = [
     title: 'title3',
     content: 'content',
     videoSrc:
-      'https://r5---sn-4g5ednsz.googlevideo.com/videoplayback?expire=1601754325&ei=dYB4X-K_M9StxN8PvvavOA&ip=81.23.32.47&id=o-ALmgJO3tPwXnPPjjo5wbHFiEspmbZ4NetGnhu0EkqdPh&itag=18&source=youtube&requiressl=yes&vprv=1&mime=video%2Fmp4&gir=yes&clen=5222562&ratebypass=yes&dur=60.186&lmt=1416849742469236&fvip=5&fexp=23812955,23915654&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRAIgC9PGlYcUs73m6zU0kUbRlwsmt-Cx4bJC7nbO69P2CTwCIH02j2XlUnYXhWbRGSo0_PaaPJW2Fn8vfQiGhJxNAQo4&video_id=3QsKtsyYCws&title=%E1%83%99%E1%83%9D%E1%83%99%E1%83%90+%E1%83%99%E1%83%9D%E1%83%9A%E1%83%90%2C+%E1%83%90%E1%83%AE%E1%83%90%E1%83%9A%E1%83%98+%E1%83%AC%E1%83%94%E1%83%9A%E1%83%98%E1%83%90&rm=sn-25g6r76&req_id=5e04a86e555da3ee&ipbypass=yes&cm2rm=sn-npa3oxu-ucns76,sn-4g5edz76&redirect_counter=3&cms_redirect=yes&mh=uA&mip=185.83.36.4&mm=34&mn=sn-4g5ednsz&ms=ltu&mt=1601732402&mv=u&mvi=5&pl=24&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgO9zDTFWkyGzcaozBhrAvtmFeZJG_xsNh4Jcf4027Mc8CIH82UAXsST12MMRRuXxV89nujAuk0kmVAZLMpaFLadsa',
+      '../../../assets/videoplayback.mp4',
     imgSrc: 'https://picsum.photos/200/150',
     publishDate: '2020-09-03T08:01:31.931+0000',
     views: 365,
@@ -53,7 +53,7 @@ const ITEMS: ItemDto[] = [
     title: 'title5',
     content: 'content',
     videoSrc:
-      'https://r5---sn-4g5ednsz.googlevideo.com/videoplayback?expire=1601754325&ei=dYB4X-K_M9StxN8PvvavOA&ip=81.23.32.47&id=o-ALmgJO3tPwXnPPjjo5wbHFiEspmbZ4NetGnhu0EkqdPh&itag=18&source=youtube&requiressl=yes&vprv=1&mime=video%2Fmp4&gir=yes&clen=5222562&ratebypass=yes&dur=60.186&lmt=1416849742469236&fvip=5&fexp=23812955,23915654&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRAIgC9PGlYcUs73m6zU0kUbRlwsmt-Cx4bJC7nbO69P2CTwCIH02j2XlUnYXhWbRGSo0_PaaPJW2Fn8vfQiGhJxNAQo4&video_id=3QsKtsyYCws&title=%E1%83%99%E1%83%9D%E1%83%99%E1%83%90+%E1%83%99%E1%83%9D%E1%83%9A%E1%83%90%2C+%E1%83%90%E1%83%AE%E1%83%90%E1%83%9A%E1%83%98+%E1%83%AC%E1%83%94%E1%83%9A%E1%83%98%E1%83%90&rm=sn-25g6r76&req_id=5e04a86e555da3ee&ipbypass=yes&cm2rm=sn-npa3oxu-ucns76,sn-4g5edz76&redirect_counter=3&cms_redirect=yes&mh=uA&mip=185.83.36.4&mm=34&mn=sn-4g5ednsz&ms=ltu&mt=1601732402&mv=u&mvi=5&pl=24&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgO9zDTFWkyGzcaozBhrAvtmFeZJG_xsNh4Jcf4027Mc8CIH82UAXsST12MMRRuXxV89nujAuk0kmVAZLMpaFLadsa',
+      '../../../assets/videoplayback.mp4',
     imgSrc: 'https://picsum.photos/200/150',
     publishDate: '2020-08-12T10:11:08.221+0000',
     views: 11536,
@@ -94,7 +94,7 @@ const ITEMS: ItemDto[] = [
     title: 'title9',
     content: 'content',
     videoSrc:
-      'https://r5---sn-4g5ednsz.googlevideo.com/videoplayback?expire=1601754325&ei=dYB4X-K_M9StxN8PvvavOA&ip=81.23.32.47&id=o-ALmgJO3tPwXnPPjjo5wbHFiEspmbZ4NetGnhu0EkqdPh&itag=18&source=youtube&requiressl=yes&vprv=1&mime=video%2Fmp4&gir=yes&clen=5222562&ratebypass=yes&dur=60.186&lmt=1416849742469236&fvip=5&fexp=23812955,23915654&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRAIgC9PGlYcUs73m6zU0kUbRlwsmt-Cx4bJC7nbO69P2CTwCIH02j2XlUnYXhWbRGSo0_PaaPJW2Fn8vfQiGhJxNAQo4&video_id=3QsKtsyYCws&title=%E1%83%99%E1%83%9D%E1%83%99%E1%83%90+%E1%83%99%E1%83%9D%E1%83%9A%E1%83%90%2C+%E1%83%90%E1%83%AE%E1%83%90%E1%83%9A%E1%83%98+%E1%83%AC%E1%83%94%E1%83%9A%E1%83%98%E1%83%90&rm=sn-25g6r76&req_id=5e04a86e555da3ee&ipbypass=yes&cm2rm=sn-npa3oxu-ucns76,sn-4g5edz76&redirect_counter=3&cms_redirect=yes&mh=uA&mip=185.83.36.4&mm=34&mn=sn-4g5ednsz&ms=ltu&mt=1601732402&mv=u&mvi=5&pl=24&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgO9zDTFWkyGzcaozBhrAvtmFeZJG_xsNh4Jcf4027Mc8CIH82UAXsST12MMRRuXxV89nujAuk0kmVAZLMpaFLadsa',
+      '../../../assets/videoplayback.mp4',
     imgSrc: 'https://picsum.photos/200/150',
     publishDate: '2020-11-09T14:05:20.000+0000',
     views: 1576,
@@ -105,7 +105,7 @@ const ITEMS: ItemDto[] = [
     title: 'title10',
     content: 'content',
     videoSrc:
-      'https://r5---sn-4g5ednsz.googlevideo.com/videoplayback?expire=1601754325&ei=dYB4X-K_M9StxN8PvvavOA&ip=81.23.32.47&id=o-ALmgJO3tPwXnPPjjo5wbHFiEspmbZ4NetGnhu0EkqdPh&itag=18&source=youtube&requiressl=yes&vprv=1&mime=video%2Fmp4&gir=yes&clen=5222562&ratebypass=yes&dur=60.186&lmt=1416849742469236&fvip=5&fexp=23812955,23915654&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRAIgC9PGlYcUs73m6zU0kUbRlwsmt-Cx4bJC7nbO69P2CTwCIH02j2XlUnYXhWbRGSo0_PaaPJW2Fn8vfQiGhJxNAQo4&video_id=3QsKtsyYCws&title=%E1%83%99%E1%83%9D%E1%83%99%E1%83%90+%E1%83%99%E1%83%9D%E1%83%9A%E1%83%90%2C+%E1%83%90%E1%83%AE%E1%83%90%E1%83%9A%E1%83%98+%E1%83%AC%E1%83%94%E1%83%9A%E1%83%98%E1%83%90&rm=sn-25g6r76&req_id=5e04a86e555da3ee&ipbypass=yes&cm2rm=sn-npa3oxu-ucns76,sn-4g5edz76&redirect_counter=3&cms_redirect=yes&mh=uA&mip=185.83.36.4&mm=34&mn=sn-4g5ednsz&ms=ltu&mt=1601732402&mv=u&mvi=5&pl=24&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgO9zDTFWkyGzcaozBhrAvtmFeZJG_xsNh4Jcf4027Mc8CIH82UAXsST12MMRRuXxV89nujAuk0kmVAZLMpaFLadsa',
+      '../../../assets/videoplayback.mp4',
     imgSrc: 'https://picsum.photos/200/150',
     publishDate: '2020-11-14T14:03:24.000+0000',
     views: 15763,
@@ -126,7 +126,7 @@ const ITEMS: ItemDto[] = [
     title: 'title',
     content: 'content',
     videoSrc:
-      'https://r5---sn-4g5ednsz.googlevideo.com/videoplayback?expire=1601754325&ei=dYB4X-K_M9StxN8PvvavOA&ip=81.23.32.47&id=o-ALmgJO3tPwXnPPjjo5wbHFiEspmbZ4NetGnhu0EkqdPh&itag=18&source=youtube&requiressl=yes&vprv=1&mime=video%2Fmp4&gir=yes&clen=5222562&ratebypass=yes&dur=60.186&lmt=1416849742469236&fvip=5&fexp=23812955,23915654&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRAIgC9PGlYcUs73m6zU0kUbRlwsmt-Cx4bJC7nbO69P2CTwCIH02j2XlUnYXhWbRGSo0_PaaPJW2Fn8vfQiGhJxNAQo4&video_id=3QsKtsyYCws&title=%E1%83%99%E1%83%9D%E1%83%99%E1%83%90+%E1%83%99%E1%83%9D%E1%83%9A%E1%83%90%2C+%E1%83%90%E1%83%AE%E1%83%90%E1%83%9A%E1%83%98+%E1%83%AC%E1%83%94%E1%83%9A%E1%83%98%E1%83%90&rm=sn-25g6r76&req_id=5e04a86e555da3ee&ipbypass=yes&cm2rm=sn-npa3oxu-ucns76,sn-4g5edz76&redirect_counter=3&cms_redirect=yes&mh=uA&mip=185.83.36.4&mm=34&mn=sn-4g5ednsz&ms=ltu&mt=1601732402&mv=u&mvi=5&pl=24&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgO9zDTFWkyGzcaozBhrAvtmFeZJG_xsNh4Jcf4027Mc8CIH82UAXsST12MMRRuXxV89nujAuk0kmVAZLMpaFLadsa',
+      '../../../assets/videoplayback.mp4',
     imgSrc: 'https://picsum.photos/200/150',
     publishDate: '2020-10-11T14:07:31.000+0000',
     views: 9684,
@@ -147,7 +147,7 @@ const ITEMS: ItemDto[] = [
     title: 'title14',
     content: 'content',
     videoSrc:
-      'https://r5---sn-4g5ednsz.googlevideo.com/videoplayback?expire=1601754325&ei=dYB4X-K_M9StxN8PvvavOA&ip=81.23.32.47&id=o-ALmgJO3tPwXnPPjjo5wbHFiEspmbZ4NetGnhu0EkqdPh&itag=18&source=youtube&requiressl=yes&vprv=1&mime=video%2Fmp4&gir=yes&clen=5222562&ratebypass=yes&dur=60.186&lmt=1416849742469236&fvip=5&fexp=23812955,23915654&c=WEB&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRAIgC9PGlYcUs73m6zU0kUbRlwsmt-Cx4bJC7nbO69P2CTwCIH02j2XlUnYXhWbRGSo0_PaaPJW2Fn8vfQiGhJxNAQo4&video_id=3QsKtsyYCws&title=%E1%83%99%E1%83%9D%E1%83%99%E1%83%90+%E1%83%99%E1%83%9D%E1%83%9A%E1%83%90%2C+%E1%83%90%E1%83%AE%E1%83%90%E1%83%9A%E1%83%98+%E1%83%AC%E1%83%94%E1%83%9A%E1%83%98%E1%83%90&rm=sn-25g6r76&req_id=5e04a86e555da3ee&ipbypass=yes&cm2rm=sn-npa3oxu-ucns76,sn-4g5edz76&redirect_counter=3&cms_redirect=yes&mh=uA&mip=185.83.36.4&mm=34&mn=sn-4g5ednsz&ms=ltu&mt=1601732402&mv=u&mvi=5&pl=24&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgO9zDTFWkyGzcaozBhrAvtmFeZJG_xsNh4Jcf4027Mc8CIH82UAXsST12MMRRuXxV89nujAuk0kmVAZLMpaFLadsa',
+      '../../../assets/videoplayback.mp4',
     imgSrc: 'https://picsum.photos/200/150',
     publishDate: '2020-10-01T08:07:58.640+0000',
     views: 3658,
